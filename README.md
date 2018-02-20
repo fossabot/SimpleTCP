@@ -4,6 +4,7 @@ Straightforward and incredibly useful .NET library to handle the repetitive task
 **NuGet Package:** https://www.nuget.org/packages/SimpleTCP/
 
 ![Build Status](https://ci.appveyor.com/api/projects/status/felx0b90mwgr4l4n?svg=true)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fforestb%2FSimpleTCP.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fforestb%2FSimpleTCP?ref=badge_shield)
 
 Want a TCP server that listens on port 8910 on all the IP addresses on the machine?
 
@@ -67,3 +68,7 @@ server.DataReceived += (sender, msg) => {
 ```
 
 (But really, this library isn't ideal for web server-ing, so don't do that in prod.)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fforestb%2FSimpleTCP.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fforestb%2FSimpleTCP?ref=badge_large)
